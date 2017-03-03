@@ -1,0 +1,61 @@
+section.battlestation
+  background:
+    image: url(/assets/img/battlestation-bg.jpg)
+    position: center
+    size: cover
+    repeat: no-repeat
+
+  h2
+    font-size: 42px
+    text-align: center
+    line-height: 1.1
+    text-indent: -1em
+    margin-top: 0
+
+  .col-1
+    color: white
+    position: relative
+
+
+  .pc-setup
+    .bubble
+      position: absolute
+      right: 110%
+      bottom: 10%
+      border-radius: 50px 50px 5px 50px
+      background:
+        image: url(/assets/img/setup.jpg)
+        size: cover
+        repeat: no-repeat
+      transform-origin: bottom right
+
+  .pc-setup-list
+    .bubble
+      position: absolute
+      left: 110%
+      bottom: 10%
+      width: 490px
+      border-radius: 50px 50px 50px 5px
+      background:
+        image: url(/assets/img/setup-list.png)
+        size: cover
+        repeat: no-repeat
+      transform-origin: bottom left
+
+  .bubble
+    position: absolute
+    color: white
+    text-align: center
+    width: 360px
+    height: 260px
+    border: 3px solid white
+    pointer-events: none
+    transition: all 0.3s ease-in-out
+    transform: scale(0)
+
+  .home-cta:hover .bubble
+    transform: scale(1)
+
+  //jQuery Toggle Classes
+  .make-visible
+    transform: scale(1)

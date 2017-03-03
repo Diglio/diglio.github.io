@@ -1,0 +1,43 @@
+section.resume
+  background:
+    image: url(/assets/img/resume-bg.jpg)
+    position: center
+    size: cover
+    repeat: no-repeat
+
+  color: white
+
+  .col-1
+    text-align: center
+    font-size: 26px
+
+  .home-cta
+    font-size: 20px
+
+  .resume-image
+    .bubble
+      background:
+        image: url(/assets/img/resume.png)
+        position: center
+        size: contain
+        repeat: no-repeat
+      border-radius: 50px 50px 50px 5px
+      left: 110%
+      bottom: 10%
+
+  .bubble
+    position: absolute
+    color: white
+    text-align: center
+    width: 200px
+    height: 260px
+    border: 3px solid white
+    pointer-events: none
+    transition: all 0.3s ease-in-out
+    transform: scale(0)
+
+  .home-cta:hover .bubble
+    transform: scale(1)
+
+  .make-visible
+    transform: scale(1)
