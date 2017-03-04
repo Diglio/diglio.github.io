@@ -164,11 +164,11 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/Resume.png": {
+	"\/assets\/img\/resume.png": {
 		"ft": 32768,
 		"iS": 624579,
 		"oA": 0,
-		"oAP": "\/assets\/img\/Resume.png",
+		"oAP": "\/assets\/img\/resume.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -420,7 +420,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509133980,
-	"displayValue": "MikeDiglio",
+	"displayValue": "diglio.github.io",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-grumpy"
 	},

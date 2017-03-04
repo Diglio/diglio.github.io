@@ -70,5 +70,4 @@ $($close).click(function(){
 $('.mobile-nav-bar').click(function(){
   $('.mobile-nav').toggleClass('is-open');
   $('.mobile-nav-bar').toggleClass('is-open');
-  $('header').toggleClass('grow-header');
 });

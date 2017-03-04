@@ -71,7 +71,9 @@
 .home-wrap .mobile-nav {
   display: none;
   position: absolute;
-  width: 100%;
+  width: 20%;
+  left: 80%;
+  background-color: rgba(52, 52, 52, 0.9);
   padding: 0;
   transform: translateY(-100%);
   transition: all 0.4s ease-in-out;
@@ -388,9 +390,6 @@ body {
 
 .push-right {
   margin-left: 330px; }
-
-.grow-header {
-  height: 240px; }
 
 .home-lead {
   font-size: 36px;
