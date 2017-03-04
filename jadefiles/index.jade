@@ -1,3 +1,14 @@
+mixin nav-content()
+  ul
+    li: a(href="#about").active About
+    li: a(href="#webdesign") Web Design
+    li: a(href="#twitch") Twitch
+    li: a(href="#youtube") YouTube
+    li: a(href="#battlestation") Battlestation
+    li: a(href="#resume") Resume
+    li: a(href="#contact") Contact Me
+    
+
 doctype html
 
 html
@@ -6,21 +17,17 @@ html
   meta(name="viewport", content="width=device-width, initial-scale=1")
   link(href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet")
   link(rel="stylesheet", href="assets/main.css")
-  
+    
   .home-wrap
+    .mobile-nav
+      +nav-content
+    
     header
       h1.logo Mike Diglio
       .header-position  
         nav.site-nav
-          ul
-            li: a(href="#about").active About
-            li: a(href="#webdesign") Web Design
-            li: a(href="#twitch") Twitch
-            li: a(href="#youtube") YouTube
-            li: a(href="#battlestation") Battlestation
-            li: a(href="#resume") Resume
-            li: a(href="#contact") Contact Me
-        
+          +nav-content
+        .mobile-nav-bar: span
     //all home content sections      
     .home-sections
       section.about

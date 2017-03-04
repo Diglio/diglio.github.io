@@ -36,6 +36,55 @@
         position: relative; }
       .home-wrap header .site-nav ul li:last-child {
         margin-bottom: 0; }
+  .home-wrap header .mobile-nav-bar {
+    display: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    left: 45%; }
+    .home-wrap header .mobile-nav-bar span,
+    .home-wrap header .mobile-nav-bar span::before,
+    .home-wrap header .mobile-nav-bar span::after {
+      content: "";
+      display: block;
+      height: 2px;
+      background: white;
+      position: relative;
+      transition: all 0.4s ease-in-out; }
+    .home-wrap header .mobile-nav-bar span {
+      top: 25px; }
+    .home-wrap header .mobile-nav-bar span::before {
+      top: 15px; }
+    .home-wrap header .mobile-nav-bar span::after {
+      top: -17px; }
+    .home-wrap header .mobile-nav-bar.is-open span {
+      background: transparent; }
+    .home-wrap header .mobile-nav-bar.is-open span::before,
+    .home-wrap header .mobile-nav-bar.is-open span::after {
+      transform-origin: center;
+      transform: rotate(45deg);
+      top: 0; }
+    .home-wrap header .mobile-nav-bar.is-open span::after {
+      transform: rotate(-45deg); }
+
+.home-wrap .mobile-nav {
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  transform: translateY(-100%);
+  transition: all 0.4s ease-in-out;
+  top: 70px; }
+  .home-wrap .mobile-nav ul {
+    list-style: none;
+    margin-right: 30px;
+    padding: 0; }
+  .home-wrap .mobile-nav li {
+    text-align: right;
+    margin-bottom: 10px; }
+  .home-wrap .mobile-nav a {
+    color: white; }
 
 section.battlestation {
   background-image: url(/assets/img/battlestation-bg.jpg);
@@ -304,6 +353,9 @@ body {
   display: flex;
   min-height: 100vh;
   font-family: 'Ubuntu', sans-serif; }
+  @media (max-width: 775px) {
+    .home-wrap {
+      display: block; } }
 
 .home-sections {
   flex: 1; }
@@ -337,6 +389,9 @@ body {
 .push-right {
   margin-left: 330px; }
 
+.grow-header {
+  height: 240px; }
+
 .home-lead {
   font-size: 36px;
   line-height: 1.1; }
@@ -345,3 +400,27 @@ body {
     @media (max-width: 640px) {
       .home-lead.outdented {
         text-indent: 0; } }
+
+@media (max-width: 775px) {
+  .home-wrap header {
+    width: auto;
+    padding: 20px 0; }
+    .home-wrap header .logo {
+      position: relative;
+      display: none; }
+    .home-wrap header .header-position {
+      width: auto;
+      position: relative;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      flex-direction: row;
+      align-items: center; }
+    .home-wrap header .site-nav {
+      display: none; }
+    .home-wrap header .mobile-nav-bar {
+      display: block; }
+  .home-wrap .mobile-nav.is-open {
+    display: block;
+    transform: translateY(0);
+    transition: all 0.4s ease-in-out; } }

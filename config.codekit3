@@ -87,6 +87,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/3-layouts\/medialayout.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/3-layouts\/medialayout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/img\/battlestation-bg.jpg": {
 		"ft": 16384,
 		"iS": 103017,

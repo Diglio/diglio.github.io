@@ -66,3 +66,9 @@ $($close).click(function(){
   $('.email-bubble').removeClass('make-visible');
   $('.facebook-bubble').removeClass('make-visible');
 });
+
+$('.mobile-nav-bar').click(function(){
+  $('.mobile-nav').toggleClass('is-open');
+  $('.mobile-nav-bar').toggleClass('is-open');
+  $('header').toggleClass('grow-header');
+});
