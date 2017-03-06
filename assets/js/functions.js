@@ -66,8 +66,57 @@ $($close).click(function(){
   $('.email-bubble').removeClass('make-visible');
   $('.facebook-bubble').removeClass('make-visible');
 });
-
+//Mobile Nav Bar icon toggle
 $('.mobile-nav-bar').click(function(){
   $('.mobile-nav').toggleClass('is-open');
   $('.mobile-nav-bar').toggleClass('is-open');
+});
+//Move Page to About Section from Nav
+$('li a[href="#about"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.about').offset().top
+  }, 1000);
+  return false;
+});
+//Move Page to Web Design Section from Nav
+$('li a[href="#webdesign"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.webdesign').offset().top
+  }, 1000);
+  return false;
+});
+//Move Page to Twitch Section from Nav
+$('li a[href="#twitch"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.twitch').offset().top
+  }, 1000);
+  return false;
+});
+//Move Page to YouTube Section from Nav
+$('li a[href="#youtube"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.youtube').offset().top
+  }, 1000);
+  return false;
+});
+//Move Page to battlestation Section from Nav
+$('li a[href="#battlestation"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.battlestation').offset().top
+  }, 1000);
+  return false;
+});
+//Move Page to resume Section from Nav
+$('li a[href="#resume"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.resume').offset().top
+  }, 1000);
+  return false;
+});
+//Move Page to Contact Section from Nav
+$('li a[href="#contact"]').click(function(){
+  $('html, body').animate({
+    scrollTop: $('.contact').offset().top
+  }, 1000);
+  return false;
 });
