@@ -77,7 +77,7 @@
   background-color: rgba(52, 52, 52, 0.9);
   padding: 0;
   transform: translateY(-100%);
-  transition: all 0.4s ease-in-out;
+  transition: all 1.4s ease-in-out;
   top: 80px; }
   .home-wrap .mobile-nav ul {
     list-style: none;
@@ -142,8 +142,7 @@ section.about {
   background-image: url(/assets/img/home.jpg);
   background-position: center bottom;
   background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); }
+  background-repeat: no-repeat; }
   section.about h2 {
     font-size: 50px;
     text-align: center;
@@ -155,7 +154,7 @@ section.about {
     text-align: center; }
   section.about .col-1 {
     color: white;
-    box-shadow: -10px 15px 10px rgba(255, 0, 0, 0.8); }
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.8); }
 
 section.twitch {
   background-color: #6445A2;
@@ -184,7 +183,9 @@ section.youtube {
     position: relative;
     width: 100%; }
     section.youtube .col-1 p {
-      box-shadow: -10px 15px 10px rgba(255, 255, 255, 0.8); }
+      box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.8);
+      padding-bottom: 5px;
+      padding-left: 5px; }
   section.youtube .home-cta {
     color: #B90002; }
   section.youtube .video-strip {
@@ -276,7 +277,7 @@ section.resume {
   section.resume .col-1 {
     text-align: center;
     font-size: 26px;
-    box-shadow: -10px 15px 10px rgba(255, 255, 255, 0.8); }
+    box-shadow: 10px 15px 10px rgba(255, 255, 255, 0.8); }
   section.resume .home-cta {
     font-size: 20px; }
   section.resume .resume-image .bubble {
@@ -301,6 +302,12 @@ section.resume {
     transform: scale(1); }
   section.resume .make-visible {
     transform: scale(1); }
+
+section.webdesign .col-1 p {
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.8);
+  padding-left: 5px;
+  padding-bottom: 5px;
+  text-align: center; }
 
 a {
   color: #6441A5; }
@@ -329,7 +336,7 @@ a {
 .active {
   background-color: #6445A2;
   box-shadow: 0px 4px 8px black;
-  transition: 0.75s ease-in-out;
+  transition: 1.25s ease-in-out;
   font-size: 20px !important; }
 
 #overlayHeight {
@@ -395,6 +402,12 @@ body {
 
 .push-left {
   margin-right: 330px; }
+  @media (max-width: 970px) {
+    .push-left {
+      margin-right: 130px; } }
+  @media (max-width: 610px) {
+    .push-left {
+      margin-right: 0; } }
 
 .push-right {
   margin-left: 330px; }
@@ -410,8 +423,9 @@ body {
 
 @media (max-width: 775px) {
   .home-wrap header {
-    width: auto;
-    padding: 20px 0; }
+    width: 100%;
+    padding: 20px 0;
+    position: fixed; }
     .home-wrap header .logo {
       position: relative;
       display: none; }
@@ -422,7 +436,8 @@ body {
       bottom: auto;
       left: auto;
       flex-direction: row;
-      align-items: center; }
+      align-items: center;
+      box-shadow: none; }
     .home-wrap header .site-nav {
       display: none; }
     .home-wrap header .mobile-nav-bar {
@@ -430,4 +445,4 @@ body {
   .home-wrap .mobile-nav.is-open {
     display: block;
     transform: translateY(0);
-    transition: all 0.4s ease-in-out; } }
+    position: fixed; } }
