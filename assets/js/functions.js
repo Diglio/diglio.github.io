@@ -33,6 +33,7 @@ $(document).ready(function(){
     $(this).addClass('active');
   });
 });
+
 //Image Popup Variables
 var $overlayHeight = $("<div id= 'overlayHeight'></div>");
 $('.home-wrap').append($overlayHeight);

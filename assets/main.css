@@ -299,7 +299,7 @@ section.resume {
   section.resume .col-1 {
     text-align: center;
     font-size: 26px;
-    box-shadow: 10px 15px 10px rgba(255, 255, 255, 0.8); }
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8); }
   section.resume .home-cta {
     font-size: 20px; }
   section.resume .resume-image .bubble {
@@ -366,8 +366,7 @@ a {
   position: absolute; }
 
 .active {
-  background-color: #6445A2;
-  box-shadow: 5px 10px 8px white;
+  box-shadow: 5px 10px 8px #b90002;
   transition: 1.25s ease-in-out;
   font-size: 20px !important; }
 
@@ -423,6 +422,7 @@ body {
 .col-1 {
   max-width: 300px;
   margin: 0 10px;
+  border-radius: 10px;
   font-family: 'Ubuntu', sans-serif; }
 
 .col-2 {
