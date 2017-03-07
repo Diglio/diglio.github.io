@@ -11,7 +11,8 @@
     width: 135px;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6); }
   .home-wrap header .logo {
     color: white;
     text-align: center;
@@ -101,7 +102,8 @@ section.battlestation {
     margin-top: 0; }
   section.battlestation .col-1 {
     color: white;
-    position: relative; }
+    position: relative;
+    box-shadow: 10px 12px 10px rgba(255, 255, 255, 0.8); }
   section.battlestation .pc-setup .bubble {
     position: absolute;
     right: 110%;
@@ -140,7 +142,8 @@ section.about {
   background-image: url(/assets/img/home.jpg);
   background-position: center bottom;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); }
   section.about h2 {
     font-size: 50px;
     text-align: center;
@@ -151,14 +154,16 @@ section.about {
     margin-right: -110px;
     text-align: center; }
   section.about .col-1 {
-    color: white; }
+    color: white;
+    box-shadow: -10px 15px 10px rgba(255, 0, 0, 0.8); }
 
 section.twitch {
   background-color: #6445A2;
   color: white; }
   section.twitch .col-1 p {
     line-height: 1.5;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); }
   section.twitch .col-1 .twitch-embed {
     position: relative;
     text-align: center; }
@@ -178,6 +183,8 @@ section.youtube {
     color: white;
     position: relative;
     width: 100%; }
+    section.youtube .col-1 p {
+      box-shadow: -10px 15px 10px rgba(255, 255, 255, 0.8); }
   section.youtube .home-cta {
     color: #B90002; }
   section.youtube .video-strip {
@@ -204,7 +211,7 @@ section.contact {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: 0px 4px 8px rgba(29, 161, 242, 0.8);
+    box-shadow: 0px 10px 8px rgba(29, 161, 242, 0.8);
     position: relative; }
     section.contact .twitter-logo .bubble {
       border: 2px solid rgba(29, 161, 242, 0.8);
@@ -219,7 +226,7 @@ section.contact {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: 0px 4px 8px rgba(59, 89, 152, 0.8);
+    box-shadow: 0px 10px 8px rgba(59, 89, 152, 0.8);
     position: relative; }
     section.contact .facebook-logo .bubble {
       border: 2px solid rgba(59, 89, 152, 0.8);
@@ -234,7 +241,7 @@ section.contact {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: 0px 4px 8px rgba(230, 33, 23, 0.8);
+    box-shadow: 0px 10px 8px rgba(230, 33, 23, 0.8);
     position: relative; }
     section.contact .email-logo .bubble {
       border: 2px solid rgba(230, 33, 23, 0.8);
@@ -268,7 +275,8 @@ section.resume {
   color: white; }
   section.resume .col-1 {
     text-align: center;
-    font-size: 26px; }
+    font-size: 26px;
+    box-shadow: -10px 15px 10px rgba(255, 255, 255, 0.8); }
   section.resume .home-cta {
     font-size: 20px; }
   section.resume .resume-image .bubble {
