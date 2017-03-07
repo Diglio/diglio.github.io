@@ -70,14 +70,14 @@
       transform: rotate(-45deg); }
 
 .home-wrap .mobile-nav {
-  display: none;
+  opacity: 0;
   position: absolute;
   width: 20%;
   left: 80%;
   background-color: rgba(52, 52, 52, 0.9);
   padding: 0;
   transform: translateY(-100%);
-  transition: all 1.4s ease-in-out;
+  transition: all .75s ease-in-out;
   top: 80px; }
   .home-wrap .mobile-nav ul {
     list-style: none;
@@ -93,7 +93,11 @@ section.battlestation {
   background-image: url(/assets/img/battlestation-bg.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); }
   section.battlestation h2 {
     font-size: 42px;
     text-align: center;
@@ -117,11 +121,12 @@ section.battlestation {
     position: absolute;
     left: 110%;
     bottom: 10%;
-    width: 490px;
+    width: 400px;
     border-radius: 50px 50px 50px 5px;
     background-image: url(/assets/img/setup-list.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     transform-origin: bottom left; }
   section.battlestation .bubble {
     position: absolute;
@@ -142,7 +147,9 @@ section.about {
   background-image: url(/assets/img/home.jpg);
   background-position: center bottom;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px; }
   section.about h2 {
     font-size: 50px;
     text-align: center;
@@ -157,12 +164,20 @@ section.about {
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.8); }
 
 section.twitch {
-  background-color: #6445A2;
-  color: white; }
+  background-image: url(/assets/img/twitch-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.8); }
   section.twitch .col-1 p {
     line-height: 1.5;
     text-align: center;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); }
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
+    top: 5%; }
   section.twitch .col-1 .twitch-embed {
     position: relative;
     text-align: center; }
@@ -177,7 +192,9 @@ section.twitch {
 section.youtube {
   background-image: url(/assets/img/youtube-banner.jpg);
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8); }
   section.youtube .col-1 {
     color: white;
     position: relative;
@@ -200,7 +217,10 @@ section.youtube {
     height: calc(100% + 100px); }
 
 section.contact {
-  background: #f4f5f7; }
+  background: #f4f5f7;
+  margin-left: 11px;
+  margin-right: 11px;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.8); }
   section.contact a {
     color: white; }
   section.contact .col-1 {
@@ -273,6 +293,8 @@ section.resume {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
   color: white; }
   section.resume .col-1 {
     text-align: center;
@@ -303,11 +325,21 @@ section.resume {
   section.resume .make-visible {
     transform: scale(1); }
 
-section.webdesign .col-1 p {
-  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.8);
-  padding-left: 5px;
-  padding-bottom: 5px;
-  text-align: center; }
+section.webdesign {
+  background-image: url(/assets/img/webdesign-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 23px;
+  margin-right: 23px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8); }
+  section.webdesign .col-1 p {
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.8);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: center; }
 
 a {
   color: #6441A5; }
@@ -335,7 +367,7 @@ a {
 
 .active {
   background-color: #6445A2;
-  box-shadow: 0px 4px 8px black;
+  box-shadow: 5px 10px 8px white;
   transition: 1.25s ease-in-out;
   font-size: 20px !important; }
 
@@ -445,4 +477,5 @@ body {
   .home-wrap .mobile-nav.is-open {
     display: block;
     transform: translateY(0);
+    opacity: 1;
     position: fixed; } }

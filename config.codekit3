@@ -198,13 +198,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/twitch-banner.jpg": {
+	"\/assets\/img\/twitch-background.jpg": {
 		"ft": 16384,
-		"iS": 79758,
+		"iS": 45733,
 		"oA": 0,
-		"oAP": "\/assets\/img\/twitch-banner.jpg",
+		"oAP": "\/assets\/img\/twitch-background.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/img\/twitch-banner.png": {
 		"ft": 32768,
@@ -219,6 +219,14 @@
 		"iS": 7699,
 		"oA": 0,
 		"oAP": "\/assets\/img\/twitter-logo.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/webdesign-background.png": {
+		"ft": 32768,
+		"iS": 3243813,
+		"oA": 0,
+		"oAP": "\/assets\/img\/webdesign-background.png",
 		"oF": 0,
 		"opt": 0
 		},
