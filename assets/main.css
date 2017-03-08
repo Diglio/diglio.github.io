@@ -104,10 +104,21 @@ section.battlestation {
     line-height: 1.1;
     text-indent: -1em;
     margin-top: 0; }
+    @media (max-width: 600px) {
+      section.battlestation h2 {
+        font-size: 36px;
+        margin-left: 0; } }
+    @media (max-width: 540px) {
+      section.battlestation h2 {
+        font-size: 24px; } }
   section.battlestation .col-1 {
     color: white;
-    position: relative;
-    box-shadow: 10px 12px 10px rgba(255, 255, 255, 0.8); }
+    position: relative; }
+    section.battlestation .col-1 p {
+      box-shadow: 10px 12px 10px rgba(255, 255, 255, 0.8); }
+    section.battlestation .col-1 h2 {
+      box-shadow: 10px 12px 10px rgba(255, 255, 255, 0.8);
+      border-radius: 10px; }
   section.battlestation .pc-setup .bubble {
     position: absolute;
     right: 110%;
@@ -136,7 +147,7 @@ section.battlestation {
     height: 260px;
     border: 3px solid white;
     pointer-events: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     transform: scale(0); }
   section.battlestation .home-cta:hover .bubble {
     transform: scale(1); }
@@ -156,12 +167,30 @@ section.about {
     line-height: 1;
     margin-left: -110px;
     margin-top: 0; }
+    @media (max-width: 600px) {
+      section.about h2 {
+        font-size: 36px;
+        margin-left: 0; } }
+    @media (max-width: 540px) {
+      section.about h2 {
+        font-size: 24px; } }
+  section.about p {
+    position: relative;
+    font-size: 30px;
+    margin-right: 0 !important; }
+    @media (max-width: 600px) {
+      section.about p {
+        font-size: 24px; } }
+    @media (max-width: 540px) {
+      section.about p {
+        font-size: 16px; } }
   section.about .home-lead {
     margin-right: -110px;
     text-align: center; }
   section.about .col-1 {
     color: white;
-    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.8); }
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.8);
+    max-width: 400px !important; }
 
 section.twitch {
   background-image: url(/assets/img/twitch-background.jpg);
@@ -177,7 +206,14 @@ section.twitch {
     line-height: 1.5;
     text-align: center;
     box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8);
-    top: 5%; }
+    top: 5%;
+    border-radius: 10px; }
+    @media (max-width: 600px) {
+      section.twitch .col-1 p {
+        font-size: 24px; } }
+    @media (max-width: 540px) {
+      section.twitch .col-1 p {
+        font-size: 16px; } }
   section.twitch .col-1 .twitch-embed {
     position: relative;
     text-align: center; }
@@ -202,7 +238,14 @@ section.youtube {
     section.youtube .col-1 p {
       box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.8);
       padding-bottom: 5px;
-      padding-left: 5px; }
+      padding-left: 5px;
+      border-radius: 10px; }
+      @media (max-width: 600px) {
+        section.youtube .col-1 p {
+          font-size: 24px; } }
+      @media (max-width: 540px) {
+        section.youtube .col-1 p {
+          font-size: 16px; } }
   section.youtube .home-cta {
     color: #B90002; }
   section.youtube .video-strip {
@@ -298,10 +341,17 @@ section.resume {
   color: white; }
   section.resume .col-1 {
     text-align: center;
-    font-size: 26px;
-    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8); }
+    font-size: 26px; }
+    section.resume .col-1 p {
+      box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.8); }
+      @media (max-width: 600px) {
+        section.resume .col-1 p {
+          font-size: 24px; } }
+      @media (max-width: 540px) {
+        section.resume .col-1 p {
+          font-size: 16px; } }
   section.resume .home-cta {
-    font-size: 20px; }
+    font-size: 28px; }
   section.resume .resume-image .bubble {
     background-image: url(/assets/img/resume.png);
     background-position: center;
@@ -309,7 +359,8 @@ section.resume {
     background-repeat: no-repeat;
     border-radius: 50px 50px 50px 5px;
     left: 110%;
-    bottom: 10%; }
+    bottom: 10%;
+    transform-origin: bottom left; }
   section.resume .bubble {
     position: absolute;
     color: white;
@@ -318,7 +369,7 @@ section.resume {
     height: 260px;
     border: 3px solid white;
     pointer-events: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     transform: scale(0); }
   section.resume .home-cta:hover .bubble {
     transform: scale(1); }
@@ -339,7 +390,14 @@ section.webdesign {
     box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.8);
     padding-left: 5px;
     padding-bottom: 5px;
-    text-align: center; }
+    text-align: center;
+    border-radius: 10px; }
+    @media (max-width: 600px) {
+      section.webdesign .col-1 p {
+        font-size: 24px; } }
+    @media (max-width: 540px) {
+      section.webdesign .col-1 p {
+        font-size: 16px; } }
 
 a {
   color: #6441A5; }
@@ -434,10 +492,10 @@ body {
 
 .push-left {
   margin-right: 330px; }
-  @media (max-width: 970px) {
+  @media (max-width: 1090px) {
     .push-left {
       margin-right: 130px; } }
-  @media (max-width: 610px) {
+  @media (max-width: 900px) {
     .push-left {
       margin-right: 0; } }
 
