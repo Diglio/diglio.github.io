@@ -14,11 +14,11 @@
     justify-content: center;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6); }
   .home-wrap header .logo {
-    color: white;
-    text-align: center;
-    size: contain;
-    padding: 0;
-    margin: 0;
+    background-image: url(/assets/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: transparent;
     position: fixed;
     max-width: 135px; }
   .home-wrap header .site-nav ul {

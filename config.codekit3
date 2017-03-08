@@ -140,6 +140,14 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/assets\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 30558,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/me.jpg": {
 		"ft": 16384,
 		"iS": 217720,
