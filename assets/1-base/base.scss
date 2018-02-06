@@ -1,0 +1,11 @@
+.body-wrap-grid{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:  "header header header"
+                        "content content content"
+                        "footer footer footer";
+  text-align: center;
+  align-items: center;
+}
