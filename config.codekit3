@@ -7,14 +7,14 @@
 		"uuidString": "67ADDD08-6E7B-4732-940E-F5D897FA0186"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "26261",
 "files": {
-	"\/assets\/1-base\/base.sass": {
+	"\/assets\/1-base\/base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/1-base\/base.css",
@@ -22,256 +22,9 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/1-base\/vars.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/1-base\/vars.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/2-modules\/activenav.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/2-modules\/activenav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/2-modules\/buttons.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/2-modules\/buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/2-modules\/overlay.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/2-modules\/overlay.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/3-layouts\/home.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/3-layouts\/home.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/3-layouts\/medialayout.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/3-layouts\/medialayout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/img\/battlestation-bg.jpg": {
-		"ft": 16384,
-		"iS": 103017,
-		"oA": 0,
-		"oAP": "\/assets\/img\/battlestation-bg.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/close.png": {
-		"ft": 32768,
-		"iS": 23693,
-		"oA": 0,
-		"oAP": "\/assets\/img\/close.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/facebook-logo.png": {
-		"ft": 32768,
-		"iS": 25236,
-		"oA": 0,
-		"oAP": "\/assets\/img\/facebook-logo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/gmail-logo.png": {
-		"ft": 32768,
-		"iS": 22779,
-		"oA": 0,
-		"oAP": "\/assets\/img\/gmail-logo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/home.jpg": {
-		"ft": 16384,
-		"iS": 84427,
-		"oA": 0,
-		"oAP": "\/assets\/img\/home.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 30558,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/me.jpg": {
-		"ft": 16384,
-		"iS": 217720,
-		"oA": 0,
-		"oAP": "\/assets\/img\/me.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/pointer.png": {
-		"ft": 32768,
-		"iS": 20772,
-		"oA": 0,
-		"oAP": "\/assets\/img\/pointer.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/resume-bg.jpg": {
-		"ft": 16384,
-		"iS": 85140,
-		"oA": 0,
-		"oAP": "\/assets\/img\/resume-bg.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/resume.png": {
-		"ft": 32768,
-		"iS": 624579,
-		"oA": 0,
-		"oAP": "\/assets\/img\/resume.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/setup-list.png": {
-		"ft": 32768,
-		"iS": 287919,
-		"oA": 0,
-		"oAP": "\/assets\/img\/setup-list.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/setup.jpg": {
-		"ft": 16384,
-		"iS": 458010,
-		"oA": 0,
-		"oAP": "\/assets\/img\/setup.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/setup.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/setup.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/img\/twitch-background.jpg": {
-		"ft": 16384,
-		"iS": 45733,
-		"oA": 0,
-		"oAP": "\/assets\/img\/twitch-background.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/twitch-banner.png": {
-		"ft": 32768,
-		"iS": 68202,
-		"oA": 0,
-		"oAP": "\/assets\/img\/twitch-banner.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/twitter-logo.gif": {
-		"ft": 4194304,
-		"iS": 7699,
-		"oA": 0,
-		"oAP": "\/assets\/img\/twitter-logo.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/webdesign-background.jpg": {
-		"ft": 16384,
-		"iS": 152639,
-		"oA": 0,
-		"oAP": "\/assets\/img\/webdesign-background.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/youtube-banner.jpg": {
-		"ft": 16384,
-		"iS": 10501,
-		"oA": 0,
-		"oAP": "\/assets\/img\/youtube-banner.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/youtube-banner.png": {
-		"ft": 32768,
-		"iS": 77270,
-		"oA": 0,
-		"oAP": "\/assets\/img\/youtube-banner.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/youtube-strip.jpg": {
-		"ft": 16384,
-		"iS": 103100,
-		"oA": 0,
-		"oAP": "\/assets\/img\/youtube-strip.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/youtube-strip.png": {
-		"ft": 32768,
-		"iS": 229400,
-		"oA": 0,
-		"oAP": "\/assets\/img\/youtube-strip.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/assets\/js\/functions-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/functions-min-min.js",
@@ -281,6 +34,7 @@
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/functions-min.js",
@@ -288,17 +42,7 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/assets\/main.scss": {
+	"\/assets\/sass\/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -306,128 +50,36 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/about.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/battlestation.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/battlestation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/contact.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/contact.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/header.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/resume.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/resume.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/twitch.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/twitch.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/webdesign.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/webdesign.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/sass\/youtube.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/sass\/youtube.css",
-		"oF": 0,
+		"oAP": "\/main.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/jadefiles\/index.jade": {
+		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 2,
 		"oS": 0
+		},
+	"\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/main-min.css",
+		"oF": 0,
+		"oS": 3
 		}
 	},
 "hooks": [
@@ -842,6 +494,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -849,6 +505,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -946,6 +606,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -962,9 +626,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -989,6 +661,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -1022,9 +698,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1054,6 +730,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1063,14 +743,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1094,6 +766,10 @@
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-caller": {
 			"active": 0,
 			"optionString": ""
@@ -1108,6 +784,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1394,6 +1074,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -1590,6 +1274,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1625,6 +1313,10 @@
 		"padded-blocks": {
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
 			"active": 0,
@@ -1694,6 +1386,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1733,6 +1429,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2146,7 +1846,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -2179,6 +1880,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2189,7 +1891,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2213,21 +1916,14 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2259,13 +1955,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2274,7 +1970,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2282,7 +1979,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2292,7 +1991,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2320,7 +2020,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2367,9 +2068,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
